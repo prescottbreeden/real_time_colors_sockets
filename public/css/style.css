@@ -1,0 +1,87 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+    margin: 0;
+	padding: 0;
+}
+body {
+    padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: 'Raleway', sans-serif;
+}
+input {
+    border-radius: 3px;
+    padding: 2px;
+}
+footer {
+    position: fixed;
+	bottom: 0;
+	padding-left: 14px;
+}
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+.center {
+    margin: 0 auto;
+}
+.btn {
+	padding: 40px 10px;
+	border-radius: 5px;
+    width: 30%;
+	position: relative;
+    background-color: rgb(180, 180, 180);
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px black;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.submit {
+    /* background-color: pink; */
+	width: 100%;
+	justify-content: center;
+    display: inline-flex;
+}
+.btn:hover {
+    background-color:  rgb(255, 255, 56);
+	color: black;
+	transition-duration: .25s;
+}
+.wrapper {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.content {
+	display: flex;
+	margin-top: 40px;
+	flex-direction: column;
+	width: 800px;
+}
+.block {
+    display: inline-block;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+#form_stuff {
+
+}
+.success {
+	background-color: lightgreen;
+	border: 1px solid black;
+	margin-top: 20px;
+	padding: 5px;
+}
