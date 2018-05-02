@@ -19,20 +19,18 @@ io.on('connection', function(socket)
     
     socket.on('green', function() 
     {
-        var color = "green";
-        socket.broadcast('green', color);
+        console.log('green received');
+        socket.broadcast.emit('green');
     })
 
     socket.on('blue', function()
     {
-        var color = "blue";
-        socket.emit('blue', color);
+        socket.broadcast.emit('blue');
     })
 
     socket.on('pink', function()
     {
-        var color = "pink";
-        socket.emit('pink', color);
+        socket.broadcast.emit('pink');
     })
 
 })
